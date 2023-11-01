@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "SMp5Z8eCDtOYHGxD5nMkeAvApbnSjNu6EvvjpqymMK4=",
+  "Source": "CSharp-App",
+  "BasePath": "_content/CSharp-App",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
