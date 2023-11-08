@@ -33,6 +33,11 @@ namespace CSharp_App.Models
         [Column("created_date")]
         public DateTime CreatedProduct { get; set; }
 
+        [Column("shelf_id")]
+        public int? ShelfId { get; set; }
+
+
+
 
         public ProductModel()
         {

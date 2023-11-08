@@ -2028,11 +2028,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\guicl\\OneDrive\\Área de Trabalho\\IatecAcademy\\C#\\exercicios\\CSharp-App\\CSharp-App\\CSharp-App.csproj",
+      "projectUniqueName": "C:\\Users\\guicl\\OneDrive\\Área de Trabalho\\IatecAcademy\\C#\\repositorios\\csharp-app\\CSharp-App\\CSharp-App.csproj",
       "projectName": "CSharp-App",
-      "projectPath": "C:\\Users\\guicl\\OneDrive\\Área de Trabalho\\IatecAcademy\\C#\\exercicios\\CSharp-App\\CSharp-App\\CSharp-App.csproj",
+      "projectPath": "C:\\Users\\guicl\\OneDrive\\Área de Trabalho\\IatecAcademy\\C#\\repositorios\\csharp-app\\CSharp-App\\CSharp-App.csproj",
       "packagesPath": "C:\\Users\\guicl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\guicl\\OneDrive\\Área de Trabalho\\IatecAcademy\\C#\\exercicios\\CSharp-App\\CSharp-App\\obj\\",
+      "outputPath": "C:\\Users\\guicl\\OneDrive\\Área de Trabalho\\IatecAcademy\\C#\\repositorios\\csharp-app\\CSharp-App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\guicl\\AppData\\Roaming\\NuGet\\NuGet.Config",

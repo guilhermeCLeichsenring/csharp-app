@@ -7,6 +7,7 @@ namespace CSharp_App.Repository.Context
     {
 
         public DbSet<ProductModel> Products { get; set; }
+        public DbSet<ShelfModel> Shelfs { get; set; }
 
         public RepositoryPatternContext(DbContextOptions options) : base(options)
         {
@@ -17,6 +18,7 @@ namespace CSharp_App.Repository.Context
         {
 
         }
+
 
     }
 }

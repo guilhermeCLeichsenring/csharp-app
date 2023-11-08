@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ciIbJt++DaUiIXLoAYf17yxTH6iFFfgThlDctsVRvvyyRHMKhoJnS4qI5KJ/8uj6lJpmW+4veiJ7nVBTbnomqA==",
+  "dgSpecHash": "PwAkXBUaEIA6rtPmH+iXKpveyP+I1kUwIPRMkA4C1jFyzSFjpN0Up9zQzlmoXhJj6Mi8LXebUBGki6feqtu2yg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\guicl\\OneDrive\\Área de Trabalho\\IatecAcademy\\C#\\exercicios\\CSharp-App\\CSharp-App\\CSharp-App.csproj",
+  "projectFilePath": "C:\\Users\\guicl\\OneDrive\\Área de Trabalho\\IatecAcademy\\C#\\repositorios\\csharp-app\\CSharp-App\\CSharp-App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\guicl\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\guicl\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.13\\microsoft.entityframeworkcore.7.0.13.nupkg.sha512",

@@ -8,8 +8,10 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//Conexão com o Banco de Dados
+//Adicionando o Controller
+builder.Services.AddControllers();
 
+//Conexão com o Banco de Dados
 var connectionString = builder.Configuration.GetConnectionString("DatabaseConnection");
 builder.Services.AddDbContext<RepositoryPatternContext>(options =>
 {
@@ -41,42 +43,38 @@ if (app.Environment.IsDevelopment())
 
 
 
-// Configure the HTTP request pipeline.
-
-app.UseHttpsRedirection();
-
-//app.UseAuthorization();
 
 
 
 // minimal API
 
-app.MapGet("/Product/{id}", ([FromRoute] int id, [FromServices] IRepository<ProductModel> product) =>
-{
-    ProductService service = new ProductService(product);
+//app.MapGet("/Product/{id}", ([FromRoute] int id, [FromServices] IRepository<ProductModel> product) =>
+//{
+//    ProductService service = new ProductService(product);
 
-    return Results.Ok(service.GetProductById(id));
-});
+//    return Results.Ok(service.GetProductById(id));
+//});
 
-app.MapGet("/Product", ( [FromServices] IRepository<ProductModel> product) =>
-{
-    ProductService service = new ProductService(product);
+//app.MapGet("/Product", ( [FromServices] IRepository<ProductModel> product) =>
+//{
+//    ProductService service = new ProductService(product);
 
-    return Results.Ok(service.GetAllProducts());
-});
+//    return Results.Ok(service.GetAllProducts());
+//});
 
-app.MapPost("/Product", ([FromBody] ProductModel model, [FromServices] IRepository<ProductModel> product) =>
-{
-    ProductService service = new ProductService(product);
+//app.MapPost("/Product", ([FromBody] ProductModel model, [FromServices] IRepository<ProductModel> product) =>
+//{
+//    ProductService service = new ProductService(product);
 
-    service.AddProduct(model);
+//    service.AddProduct(model);
 
-    return Results.Created($"/products/{model.Id}", model.Id);
-});
-
-
+//    return Results.Created($"/products/{model.Id}", model.Id);
+//});
 
 
-
+// Configure the HTTP request pipeline.
+app.UseHttpsRedirection();
+app.UseAuthorization();
+app.MapControllers();
 app.Run();
 
